@@ -1,0 +1,15 @@
+PHISHLENS 2.0 — START HERE
+
+1. Make sure Python and Node.js are installed.
+2. Double-click START-PHISHLENS.cmd.
+3. The launcher creates backend\.venv automatically and installs dependencies.
+4. Open the frontend URL shown by Vite (normally http://localhost:5173).
+
+Windows / Python 3.14 compatibility:
+- The backend pins psycopg 3.3.6, which provides a CPython 3.14 Windows wheel.
+- The launcher uses --only-binary=:all: to avoid C/C++ source builds.
+
+If an older broken environment exists, delete this folder and launch again:
+backend\.venv
+
+No Visual Studio, GCC, Clang, or C++ build tools are required for the standard Windows setup.
